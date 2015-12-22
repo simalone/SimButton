@@ -2,9 +2,9 @@
 Pod::Spec.new do |s|
     s.name             = "SimButton"
     s.version          = "1.0.0"
-    s.summary          = "非常简单的图片和文本排列显示的按钮"
+    s.summary          = "Simply to implement a button on the text and icon of the horizontal or vertical arrangement."
     s.description      = <<-DESC
-    非常简单的图片和文本排列显示的按钮。支持上下左右中五种位置。
+    Usually, we use imageEdgeInsets and titleEdgeInsets to implement a button on the text and icon of the horizontal or vertical arrangement, these settings of UIButton is very troublesome. SimButton set the desired effect by setting the iconPostion and iconTextMargin simply.
     DESC
     s.homepage         = "https://github.com/simalone/"
     s.license          = 'MIT'
