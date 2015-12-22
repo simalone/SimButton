@@ -69,8 +69,8 @@
         }
         else if (_iconPostion == BIP_Top){
             CGFloat height = self.imageView.height + self.titleLabel.height + _iconTextMargin;
-            self.imageView.top = self.height/2 - height/2 + 2;
-            self.titleLabel.bottom = self.height/2 + height/2 + 2;
+            self.imageView.top = self.height/2 - height/2;
+            self.titleLabel.bottom = self.height/2 + height/2;
             self.imageView.centerX = self.width/2;
             self.titleLabel.centerX = self.width/2;
         }
@@ -88,18 +88,20 @@
 {
     if (_iconPostion != BIP_None) {
         [self.titleLabel sizeToFit];
+        
+        UIImage *image = self.imageView.image;
         CGFloat width = 0, height = 0;
         if (_iconPostion == BIP_Left || _iconPostion == BIP_Right){
-            width = self.titleLabel.width + self.imageView.width + _iconTextMargin + kSimButtonGap;
-            height = MAX(self.titleLabel.height, self.imageView.height);
+            width = self.titleLabel.width + image.size.width + _iconTextMargin + kSimButtonGap;
+            height = MAX(self.titleLabel.height, image.size.height);
         }
         else if (_iconPostion == BIP_Top || _iconPostion == BIP_Bottom) {
-            height = self.titleLabel.height + self.imageView.height + _iconTextMargin;
-            width = MAX(self.titleLabel.width, self.imageView.width) + kSimButtonGap;
+            height = self.titleLabel.height + image.size.height + _iconTextMargin;
+            width = MAX(self.titleLabel.width, image.size.width) + kSimButtonGap;
         }
         else if (_iconPostion == BIP_Center) {
-            width = MAX(self.titleLabel.width, self.imageView.width);
-            height = MAX(self.titleLabel.height, self.imageView.height);
+            width = MAX(self.titleLabel.width, image.size.width) + kSimButtonGap;
+            height = MAX(self.titleLabel.height, image.size.height) + kSimButtonGap;
         }
         self.size = CGSizeMake(width, height);
     }
