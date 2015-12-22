@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E588B75EC889D5D7D877DE8A35A2766D3F940A29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0DDF98A19B5ECA02D35DC0ABFB3FBCFA95CE2747" : 0,
+    "E588B75EC889D5D7D877DE8A35A2766D3F940A29" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "780B5C7F-B07C-4357-A517-48ECC0AA2636",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0DDF98A19B5ECA02D35DC0ABFB3FBCFA95CE2747" : "SimPodsPublic\/",
+    "E588B75EC889D5D7D877DE8A35A2766D3F940A29" : "SimButton\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/simalone\/SimPodsPublic",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0DDF98A19B5ECA02D35DC0ABFB3FBCFA95CE2747"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/simalone\/SimButton",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E588B75EC889D5D7D877DE8A35A2766D3F940A29"
+    }
+  ]
+}

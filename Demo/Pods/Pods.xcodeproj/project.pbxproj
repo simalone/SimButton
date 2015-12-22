@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162EAA6F141B30E1831F2442008AA5BC /* SimPodsPublic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BF803716EAE608FEAC017F509166FC /* SimPodsPublic-dummy.m */; };
+		19185FA0E52BD835B11A0B792C9BD62C /* UIAlertView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 186218479D0E9B2EFF1A5B8454D7FE0A /* UIAlertView+SimAdditions.m */; };
+		1BFEAB06C145E25E09390140B57C0AC9 /* SimDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C641EC3F7C3B388FD2C78A6C14922DA /* SimDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29A6E0E571EC81E55ABD16C8D95018 /* SimPodsPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF5128C94D59BD9D857EF51D8D9829C /* SimPodsPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D56CF6BA7CC2E81582AA48D9085C534 /* SimDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6CB884F9D414CDE905BE7D082640DB /* SimDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D8CBD09D92C37F7F163CD880E9470C /* SimButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D80C8B2C68AA30EE6683175C8E516CA9 /* SimButton-dummy.m */; };
+		2CD56EF22D8C7B598A1EA14E8DC23ECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		30D087023A078F23C705C482473025DB /* SimPodsPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7430AB98520916450D1770774E5B39 /* SimPodsPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40475140AE47B73773A8AB006F9B8098 /* UIScrollView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC53BCB08901699DD6559A76698D772F /* UIScrollView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AB9707995634CBC9C2C42A389064CE /* UIScrollView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D26805C5A59EC9C0BF43BC9BDF490 /* UIScrollView+SimAdditions.m */; };
+		4F3D2E5FF13752F18BDFF1B9F3C47049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6C9E5AB62755A03C28E9505F01331B9A /* UIView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA9EC583203CF8E5583D56A8C4A57D /* UIView+SimAdditions.m */; };
+		8C14FD55ADAF3A2D8BFB6BA1198AF75F /* UIAlertView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1289B9C31AADF38B5D6B149ED1D66B01 /* UIAlertView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC819E9E36FA7EB3578A376725B5FA83 /* UIScrollView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3813FAC3241F26E275D61043B70F4E /* UIScrollView+SimAdditions.m */; };
+		B767E1CA7B5A0803FFE2D6696B4D923B /* UIWindow+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7C170FBE0B5ACF054520235880F8F /* UIWindow+SimAdditions.m */; };
+		BAAB2677AE4666409F302D2E3D525E3E /* UIView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D495FEB10E39ED8951F6BA69C4D0B /* UIView+SimAdditions.m */; };
+		BC4A69315BF5C10539C7FDF6E34BA671 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */; };
+		BEDB3BAD835842FF150592323390DA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DEB53EBA9979BBE843B2AC521E78A833 /* UIWindow+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F117E031ED0D17695E8F1BFA448E1C30 /* UIWindow+SimAdditions.m */; };
+		E32CEED07B16D684E4D219AAB2F79343 /* UIView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 959B47F09172E2842D8AC73960C5D9A0 /* UIView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C8EE418F320727EF16F1662629CD90 /* UIView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3EB400FDCFE7120044661BA836A77F /* UIView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F4137ABFC6FA71381451040FA06A16 /* UIScrollView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E0134454B09D78C8D49D2846F99B04DE /* UIScrollView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB95307EAE06598D166455F18B7D03C /* UIWindow+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 609E246F8E76C5AB5B1F1C5D3A5582E9 /* UIWindow+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C878715ABF22B41E0E2FF5E1123F6F /* UIAlertView+SimAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7206EC6D0265E7D618D6559EBB9EE68C /* UIAlertView+SimAdditions.m */; };
+		F8A3CE8213EEB13E4FC6FD3EFC3FEF2D /* UIWindow+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24718427110737FE1CE0EA62E186973C /* UIWindow+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0A074799BA4969711349E40BF82F3D /* UIAlertView+SimAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AF467E99240796C0381158545032AE /* UIAlertView+SimAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F0115E3F9B03F394965E54C3400262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D57FB604F1C64B0E121C856239B159;
+			remoteInfo = SimPodsPublic;
+		};
+		216B1B858CE1FCBCF185978E102F70DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CD43738E14944C2B1AE5666F81A69A;
+			remoteInfo = SimButton;
+		};
+		985691A25BFEC3C91666DCC780749161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D57FB604F1C64B0E121C856239B159;
+			remoteInfo = SimPodsPublic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C641EC3F7C3B388FD2C78A6C14922DA /* SimDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimDefine.h; path = Classes/SimMacro/SimDefine.h; sourceTree = "<group>"; };
+		1289B9C31AADF38B5D6B149ED1D66B01 /* UIAlertView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SimAdditions.h"; path = "Classes/SimCategory/UIAlertView+SimAdditions.h"; sourceTree = "<group>"; };
+		17AF467E99240796C0381158545032AE /* UIAlertView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SimAdditions.h"; path = "Classes/SimCategory/UIAlertView+SimAdditions.h"; sourceTree = "<group>"; };
+		186218479D0E9B2EFF1A5B8454D7FE0A /* UIAlertView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SimAdditions.m"; path = "Classes/SimCategory/UIAlertView+SimAdditions.m"; sourceTree = "<group>"; };
+		24718427110737FE1CE0EA62E186973C /* UIWindow+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+SimAdditions.h"; path = "Classes/SimCategory/UIWindow+SimAdditions.h"; sourceTree = "<group>"; };
+		3379F6E8DAFA1F6C7B2DA116DF6EF17F /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA7C170FBE0B5ACF054520235880F8F /* UIWindow+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+SimAdditions.m"; path = "Classes/SimCategory/UIWindow+SimAdditions.m"; sourceTree = "<group>"; };
+		4F3813FAC3241F26E275D61043B70F4E /* UIScrollView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SimAdditions.m"; path = "Classes/SimCategory/UIScrollView+SimAdditions.m"; sourceTree = "<group>"; };
+		609E246F8E76C5AB5B1F1C5D3A5582E9 /* UIWindow+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+SimAdditions.h"; path = "Classes/SimCategory/UIWindow+SimAdditions.h"; sourceTree = "<group>"; };
+		628A50325A260A7C07D4FFF40724F3A0 /* SimPodsPublic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimPodsPublic-prefix.pch"; sourceTree = "<group>"; };
+		6A35396BBA9E797CF144473380B51390 /* SimButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimButton.xcconfig; sourceTree = "<group>"; };
+		6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F6CB884F9D414CDE905BE7D082640DB /* SimDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimDefine.h; path = Classes/SimMacro/SimDefine.h; sourceTree = "<group>"; };
+		70BF803716EAE608FEAC017F509166FC /* SimPodsPublic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimPodsPublic-dummy.m"; sourceTree = "<group>"; };
+		7206EC6D0265E7D618D6559EBB9EE68C /* UIAlertView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SimAdditions.m"; path = "Classes/SimCategory/UIAlertView+SimAdditions.m"; sourceTree = "<group>"; };
+		7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		90AA9EC583203CF8E5583D56A8C4A57D /* UIView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SimAdditions.m"; path = "Classes/SimCategory/UIView+SimAdditions.m"; sourceTree = "<group>"; };
+		959B47F09172E2842D8AC73960C5D9A0 /* UIView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SimAdditions.h"; path = "Classes/SimCategory/UIView+SimAdditions.h"; sourceTree = "<group>"; };
+		AC7D26805C5A59EC9C0BF43BC9BDF490 /* UIScrollView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SimAdditions.m"; path = "Classes/SimCategory/UIScrollView+SimAdditions.m"; sourceTree = "<group>"; };
+		ACF5128C94D59BD9D857EF51D8D9829C /* SimPodsPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimPodsPublic.h; path = Classes/SimPodsPublic.h; sourceTree = "<group>"; };
+		B04DE5E66EF9568D74EFC4A390C4DCC0 /* SimButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimButton-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		BD18F6CC747FED654BF486F9859C1DF6 /* libSimPodsPublic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimPodsPublic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D495FEB10E39ED8951F6BA69C4D0B /* UIView+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SimAdditions.m"; path = "Classes/SimCategory/UIView+SimAdditions.m"; sourceTree = "<group>"; };
+		C470DD7A9CACB75490FBA81D10707463 /* libSimButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		D573C185F904A8493CC93BE35976754F /* SimPodsPublic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimPodsPublic.xcconfig; sourceTree = "<group>"; };
+		D80C8B2C68AA30EE6683175C8E516CA9 /* SimButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimButton-dummy.m"; sourceTree = "<group>"; };
+		DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		E0134454B09D78C8D49D2846F99B04DE /* UIScrollView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SimAdditions.h"; path = "Classes/SimCategory/UIScrollView+SimAdditions.h"; sourceTree = "<group>"; };
+		EC53BCB08901699DD6559A76698D772F /* UIScrollView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SimAdditions.h"; path = "Classes/SimCategory/UIScrollView+SimAdditions.h"; sourceTree = "<group>"; };
+		EC7430AB98520916450D1770774E5B39 /* SimPodsPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimPodsPublic.h; path = Classes/SimPodsPublic.h; sourceTree = "<group>"; };
+		EE3EB400FDCFE7120044661BA836A77F /* UIView+SimAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SimAdditions.h"; path = "Classes/SimCategory/UIView+SimAdditions.h"; sourceTree = "<group>"; };
+		F117E031ED0D17695E8F1BFA448E1C30 /* UIWindow+SimAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+SimAdditions.m"; path = "Classes/SimCategory/UIWindow+SimAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ED1597028B717FB7B4027A3A34E461F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3D2E5FF13752F18BDFF1B9F3C47049 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48A566F55CA5569B7B158B81CF3477B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD56EF22D8C7B598A1EA14E8DC23ECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8E788744C31E4917CDE1F8112F277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDB3BAD835842FF150592323390DA22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105A24935BC6A33BE66754CE51C36C31 /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */,
+				0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */,
+				DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */,
+				BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */,
+				D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */,
+				7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */,
+				BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		63E56821D597FE55D88E216C39257B21 /* SimButton */ = {
+			isa = PBXGroup;
+			children = (
+				0C641EC3F7C3B388FD2C78A6C14922DA /* SimDefine.h */,
+				ACF5128C94D59BD9D857EF51D8D9829C /* SimPodsPublic.h */,
+				17AF467E99240796C0381158545032AE /* UIAlertView+SimAdditions.h */,
+				7206EC6D0265E7D618D6559EBB9EE68C /* UIAlertView+SimAdditions.m */,
+				EC53BCB08901699DD6559A76698D772F /* UIScrollView+SimAdditions.h */,
+				AC7D26805C5A59EC9C0BF43BC9BDF490 /* UIScrollView+SimAdditions.m */,
+				959B47F09172E2842D8AC73960C5D9A0 /* UIView+SimAdditions.h */,
+				90AA9EC583203CF8E5583D56A8C4A57D /* UIView+SimAdditions.m */,
+				609E246F8E76C5AB5B1F1C5D3A5582E9 /* UIWindow+SimAdditions.h */,
+				3EA7C170FBE0B5ACF054520235880F8F /* UIWindow+SimAdditions.m */,
+				F2E8B996CEAAEE44B136C49DBC8ECF83 /* Support Files */,
+			);
+			path = SimButton;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D7A0C1B493CD98E32CBC3E7448BB9466 /* Pods */,
+				D622CB8D6C888FFC30E43802B07F8278 /* Products */,
+				F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		857ABA3C16291654658C942BEC3CAB29 /* SimPodsPublic */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CB884F9D414CDE905BE7D082640DB /* SimDefine.h */,
+				EC7430AB98520916450D1770774E5B39 /* SimPodsPublic.h */,
+				1289B9C31AADF38B5D6B149ED1D66B01 /* UIAlertView+SimAdditions.h */,
+				186218479D0E9B2EFF1A5B8454D7FE0A /* UIAlertView+SimAdditions.m */,
+				E0134454B09D78C8D49D2846F99B04DE /* UIScrollView+SimAdditions.h */,
+				4F3813FAC3241F26E275D61043B70F4E /* UIScrollView+SimAdditions.m */,
+				EE3EB400FDCFE7120044661BA836A77F /* UIView+SimAdditions.h */,
+				C39D495FEB10E39ED8951F6BA69C4D0B /* UIView+SimAdditions.m */,
+				24718427110737FE1CE0EA62E186973C /* UIWindow+SimAdditions.h */,
+				F117E031ED0D17695E8F1BFA448E1C30 /* UIWindow+SimAdditions.m */,
+				B03593F178DE868D6A99EDFB9C8BCE0A /* Support Files */,
+			);
+			path = SimPodsPublic;
+			sourceTree = "<group>";
+		};
+		B03593F178DE868D6A99EDFB9C8BCE0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D573C185F904A8493CC93BE35976754F /* SimPodsPublic.xcconfig */,
+				70BF803716EAE608FEAC017F509166FC /* SimPodsPublic-dummy.m */,
+				628A50325A260A7C07D4FFF40724F3A0 /* SimPodsPublic-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimPodsPublic";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D622CB8D6C888FFC30E43802B07F8278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3379F6E8DAFA1F6C7B2DA116DF6EF17F /* libPods-Demo.a */,
+				C470DD7A9CACB75490FBA81D10707463 /* libSimButton.a */,
+				BD18F6CC747FED654BF486F9859C1DF6 /* libSimPodsPublic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A0C1B493CD98E32CBC3E7448BB9466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E56821D597FE55D88E216C39257B21 /* SimButton */,
+				857ABA3C16291654658C942BEC3CAB29 /* SimPodsPublic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2E8B996CEAAEE44B136C49DBC8ECF83 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A35396BBA9E797CF144473380B51390 /* SimButton.xcconfig */,
+				D80C8B2C68AA30EE6683175C8E516CA9 /* SimButton-dummy.m */,
+				B04DE5E66EF9568D74EFC4A390C4DCC0 /* SimButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimButton";
+			sourceTree = "<group>";
+		};
+		F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				105A24935BC6A33BE66754CE51C36C31 /* Pods-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7788AF8C9E28AC3D38D21611778F15BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFEAB06C145E25E09390140B57C0AC9 /* SimDefine.h in Headers */,
+				1C29A6E0E571EC81E55ABD16C8D95018 /* SimPodsPublic.h in Headers */,
+				FD0A074799BA4969711349E40BF82F3D /* UIAlertView+SimAdditions.h in Headers */,
+				40475140AE47B73773A8AB006F9B8098 /* UIScrollView+SimAdditions.h in Headers */,
+				E32CEED07B16D684E4D219AAB2F79343 /* UIView+SimAdditions.h in Headers */,
+				EBB95307EAE06598D166455F18B7D03C /* UIWindow+SimAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915CB19911D49CED8B16908D5FF3BCAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D56CF6BA7CC2E81582AA48D9085C534 /* SimDefine.h in Headers */,
+				30D087023A078F23C705C482473025DB /* SimPodsPublic.h in Headers */,
+				8C14FD55ADAF3A2D8BFB6BA1198AF75F /* UIAlertView+SimAdditions.h in Headers */,
+				E9F4137ABFC6FA71381451040FA06A16 /* UIScrollView+SimAdditions.h in Headers */,
+				E3C8EE418F320727EF16F1662629CD90 /* UIView+SimAdditions.h in Headers */,
+				F8A3CE8213EEB13E4FC6FD3EFC3FEF2D /* UIWindow+SimAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13D620E140198D5E7A28E899F064532D /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB9EF0BC112480D74D0A82DCB78178A /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				39F7D83EB74D7798786D0A2DAEE1A3D6 /* Sources */,
+				D48A566F55CA5569B7B158B81CF3477B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8BC957E4198FEF163DD88297D2440B /* PBXTargetDependency */,
+				1BDA93A4855380A6605185006E1B9FBC /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 3379F6E8DAFA1F6C7B2DA116DF6EF17F /* libPods-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65D57FB604F1C64B0E121C856239B159 /* SimPodsPublic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375EAB2D13E6B9BDDA2DD2CB830BD1C8 /* Build configuration list for PBXNativeTarget "SimPodsPublic" */;
+			buildPhases = (
+				6366EE64A9A5202B6CD1328B2431C72D /* Sources */,
+				F7E8E788744C31E4917CDE1F8112F277 /* Frameworks */,
+				915CB19911D49CED8B16908D5FF3BCAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimPodsPublic;
+			productName = SimPodsPublic;
+			productReference = BD18F6CC747FED654BF486F9859C1DF6 /* libSimPodsPublic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7CD43738E14944C2B1AE5666F81A69A /* SimButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05E7DCB3C509B1B565B180C84449B06 /* Build configuration list for PBXNativeTarget "SimButton" */;
+			buildPhases = (
+				0C4825F0F7C99801C5F1F2462F6BF1A7 /* Sources */,
+				9ED1597028B717FB7B4027A3A34E461F /* Frameworks */,
+				7788AF8C9E28AC3D38D21611778F15BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FE06DA1BE13A5F262B329160752785 /* PBXTargetDependency */,
+			);
+			name = SimButton;
+			productName = SimButton;
+			productReference = C470DD7A9CACB75490FBA81D10707463 /* libSimButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D622CB8D6C888FFC30E43802B07F8278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D620E140198D5E7A28E899F064532D /* Pods-Demo */,
+				F7CD43738E14944C2B1AE5666F81A69A /* SimButton */,
+				65D57FB604F1C64B0E121C856239B159 /* SimPodsPublic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C4825F0F7C99801C5F1F2462F6BF1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D8CBD09D92C37F7F163CD880E9470C /* SimButton-dummy.m in Sources */,
+				F1C878715ABF22B41E0E2FF5E1123F6F /* UIAlertView+SimAdditions.m in Sources */,
+				46AB9707995634CBC9C2C42A389064CE /* UIScrollView+SimAdditions.m in Sources */,
+				6C9E5AB62755A03C28E9505F01331B9A /* UIView+SimAdditions.m in Sources */,
+				B767E1CA7B5A0803FFE2D6696B4D923B /* UIWindow+SimAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F7D83EB74D7798786D0A2DAEE1A3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4A69315BF5C10539C7FDF6E34BA671 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6366EE64A9A5202B6CD1328B2431C72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162EAA6F141B30E1831F2442008AA5BC /* SimPodsPublic-dummy.m in Sources */,
+				19185FA0E52BD835B11A0B792C9BD62C /* UIAlertView+SimAdditions.m in Sources */,
+				AC819E9E36FA7EB3578A376725B5FA83 /* UIScrollView+SimAdditions.m in Sources */,
+				BAAB2677AE4666409F302D2E3D525E3E /* UIView+SimAdditions.m in Sources */,
+				DEB53EBA9979BBE843B2AC521E78A833 /* UIWindow+SimAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BDA93A4855380A6605185006E1B9FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimPodsPublic;
+			target = 65D57FB604F1C64B0E121C856239B159 /* SimPodsPublic */;
+			targetProxy = 985691A25BFEC3C91666DCC780749161 /* PBXContainerItemProxy */;
+		};
+		34FE06DA1BE13A5F262B329160752785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimPodsPublic;
+			target = 65D57FB604F1C64B0E121C856239B159 /* SimPodsPublic */;
+			targetProxy = 17F0115E3F9B03F394965E54C3400262 /* PBXContainerItemProxy */;
+		};
+		9F8BC957E4198FEF163DD88297D2440B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimButton;
+			target = F7CD43738E14944C2B1AE5666F81A69A /* SimButton */;
+			targetProxy = 216B1B858CE1FCBCF185978E102F70DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21518D0093AEF54CA0089D9C31D19E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A35396BBA9E797CF144473380B51390 /* SimButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimButton/SimButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2DF53738737AFB8C2D8EAE8001EABACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D573C185F904A8493CC93BE35976754F /* SimPodsPublic.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimPodsPublic/SimPodsPublic-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92A9D672134E809D27CF32AEAB64CADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC667FF31A678F28667BD6AC67860175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A35396BBA9E797CF144473380B51390 /* SimButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimButton/SimButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC82B3F8F3FBF949BDF712AA6F4C31ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D573C185F904A8493CC93BE35976754F /* SimPodsPublic.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimPodsPublic/SimPodsPublic-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA3C03BE1FBD18859EFF770F90BD9E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB9EF0BC112480D74D0A82DCB78178A /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A9D672134E809D27CF32AEAB64CADD /* Debug */,
+				EA3C03BE1FBD18859EFF770F90BD9E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375EAB2D13E6B9BDDA2DD2CB830BD1C8 /* Build configuration list for PBXNativeTarget "SimPodsPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC82B3F8F3FBF949BDF712AA6F4C31ED /* Debug */,
+				2DF53738737AFB8C2D8EAE8001EABACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05E7DCB3C509B1B565B180C84449B06 /* Build configuration list for PBXNativeTarget "SimButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC667FF31A678F28667BD6AC67860175 /* Debug */,
+				21518D0093AEF54CA0089D9C31D19E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

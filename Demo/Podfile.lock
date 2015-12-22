@@ -1,0 +1,17 @@
+PODS:
+  - SimButton (1.0.0):
+    - SimPodsPublic (~> 1.0.0)
+  - SimPodsPublic (1.0.0)
+
+DEPENDENCIES:
+  - SimButton (from `../SimButton.podspec`)
+
+EXTERNAL SOURCES:
+  SimButton:
+    :podspec: ../SimButton.podspec
+
+SPEC CHECKSUMS:
+  SimButton: 23b91becfd24c27e5bd1353c5274accfe3ec6330
+  SimPodsPublic: 67393f15e81059b8bd636ed7d83f30d5b0ba493b
+
+COCOAPODS: 0.39.0
